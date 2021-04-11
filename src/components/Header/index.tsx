@@ -1,7 +1,7 @@
-import { Box, Image } from "@chakra-ui/react";
+import { Flex, Image } from "@chakra-ui/react";
 
 export const Header = () => (
-  <Box as="header" w="100%" h="16" p="4">
-    <Image src="/images/logo.png" alt="logo" mx="auto" />
-  </Box>
+  <Flex as="header" w="100%" h="16" align="center" justify="center" my="2">
+    <Image src="/images/logo.png" alt="logo" />
+  </Flex>
 );

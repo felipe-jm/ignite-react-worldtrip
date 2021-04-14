@@ -1,0 +1,21 @@
+:root {
+  --highlight: #ffba08;
+  --dark-info: #999999;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: var(--highlight);
+}
+
+.swiper-pagination-bullet {
+  height: 16px;
+  width: 16px;
+  background: var(--dark-info);
+}
+
+.swiper-pagination-bullet-active {
+  height: 16px;
+  width: 16px;
+  background: var(--highlight);
+}

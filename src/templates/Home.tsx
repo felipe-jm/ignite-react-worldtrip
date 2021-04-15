@@ -5,16 +5,14 @@ import { ContinentsSection } from "components/ContinentsSection";
 
 import { BaseTemplate } from "templates/Base";
 
-export const HomeTemplate = () => {
-  return (
-    <BaseTemplate>
-      <HeroSection />
+export const HomeTemplate = () => (
+  <BaseTemplate>
+    <HeroSection />
 
-      <CharacteristicsSection />
+    <CharacteristicsSection />
 
-      <Divider />
+    <Divider />
 
-      <ContinentsSection />
-    </BaseTemplate>
-  );
-};
+    <ContinentsSection />
+  </BaseTemplate>
+);

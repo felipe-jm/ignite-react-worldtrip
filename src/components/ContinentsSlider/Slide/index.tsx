@@ -8,7 +8,7 @@ type SlideProps = {
 
 export const Slide = ({ heading, description, imgUrl }: SlideProps) => (
   <Box
-    w={1240}
+    w={{ base: "100%", md: 1240 }}
     h={450}
     bgImage={`url(${imgUrl})`}
     bgPosition="center"

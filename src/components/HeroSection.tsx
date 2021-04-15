@@ -18,6 +18,7 @@ export const HeroSection = () => {
       <Flex
         h="100%"
         mx="auto"
+        px="6"
         align="center"
         justify="space-around"
         maxW={1480}

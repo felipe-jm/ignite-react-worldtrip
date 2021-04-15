@@ -65,6 +65,14 @@ export function makeServer({ environment = "test" }) {
       this.get("/continents", () => {
         return this.schema.all("continent");
       });
+
+      this.get("/continents/:slug", (schema, request) => {
+        const { slug } = request.params;
+
+        return schema.findBy({
+          slug,
+        });
+      });
     },
   });
 

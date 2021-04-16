@@ -5,7 +5,13 @@ import { ContinentsSection } from "components/ContinentsSection";
 
 import { BaseTemplate } from "templates/Base";
 
-export const HomeTemplate = () => (
+import { ContinentType } from "./Continent";
+
+type HomeTemplateProps = {
+  continents: ContinentType[];
+};
+
+export const HomeTemplate = ({ continents = [] }: HomeTemplateProps) => (
   <BaseTemplate>
     <HeroSection />
 
@@ -13,6 +19,6 @@ export const HomeTemplate = () => (
 
     <Divider />
 
-    <ContinentsSection />
+    <ContinentsSection continents={continents} />
   </BaseTemplate>
 );

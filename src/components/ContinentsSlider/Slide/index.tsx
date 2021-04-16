@@ -1,12 +1,13 @@
-import { Heading, Flex, Box, Text } from "@chakra-ui/react";
+import { Heading, Flex, Box, Text, Link } from "@chakra-ui/react";
 
 type SlideProps = {
   heading: string;
   description: string;
+  href: string;
   imgUrl: string;
 };
 
-export const Slide = ({ heading, description, imgUrl }: SlideProps) => (
+export const Slide = ({ heading, description, href, imgUrl }: SlideProps) => (
   <Box
     w={{ base: "100%", md: 1240 }}
     h={450}
@@ -22,7 +23,17 @@ export const Slide = ({ heading, description, imgUrl }: SlideProps) => (
       align="center"
       justify="center"
     >
-      <Heading color="white">{heading}</Heading>
+      <Link
+        href={href}
+        color="white"
+        fontSize="4xl"
+        fontWeight="bold"
+        _hover={{
+          color: "#ffba08",
+        }}
+      >
+        {heading}
+      </Link>
       <Text color="white" fontWeight="bold" fontSize="2xl" mt="4">
         {description}
       </Text>

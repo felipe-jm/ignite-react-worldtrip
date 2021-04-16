@@ -19,6 +19,8 @@ export const continents: ContinentType[] = [
         subtitle: "US",
         imgUrl:
           "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+        flagUrl:
+          "https://www.flaticon.com/svg/vstatic/svg/206/206626.svg?token=exp=1618586784~hmac=ee5e68c3804dcaf5208302f36d571248",
       },
     ],
   },
@@ -38,6 +40,8 @@ export const continents: ContinentType[] = [
         subtitle: "Brasil",
         imgUrl:
           "https://images.unsplash.com/photo-1583275479278-7bc72a16c2ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1268&q=80",
+        flagUrl:
+          "https://www.flaticon.com/svg/vstatic/svg/3022/3022546.svg?token=exp=1618586807~hmac=bf5e83e085f4df1f031ba184b19d4077",
       },
     ],
   },
@@ -57,6 +61,8 @@ export const continents: ContinentType[] = [
         subtitle: "Coréia do Sul",
         imgUrl:
           "https://images.unsplash.com/photo-1517154421773-0529f29ea451?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+        flagUrl:
+          "https://www.flaticon.com/svg/vstatic/svg/206/206758.svg?token=exp=1618586833~hmac=a9ba9a99773e9f33d2cdc4dc343d2183",
       },
     ],
   },
@@ -76,6 +82,8 @@ export const continents: ContinentType[] = [
         subtitle: "África do Sul",
         imgUrl:
           "https://images.unsplash.com/photo-1556766736-3ad404a4feaf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+        flagUrl:
+          "https://www.flaticon.com/svg/vstatic/svg/555/555604.svg?token=exp=1618586862~hmac=837de9973352a2be32dc5083f668f52f",
       },
     ],
   },
@@ -95,6 +103,8 @@ export const continents: ContinentType[] = [
         subtitle: "Reino Unido",
         imgUrl:
           "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+        flagUrl:
+          "https://www.flaticon.com/svg/vstatic/svg/330/330425.svg?token=exp=1618586883~hmac=89cb20bcdc1ecf332275c03bf93da457",
       },
     ],
   },
@@ -114,6 +124,8 @@ export const continents: ContinentType[] = [
         subtitle: "Austrália",
         imgUrl:
           "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+        flagUrl:
+          "https://www.flaticon.com/svg/vstatic/svg/206/206618.svg?token=exp=1618586909~hmac=05dbc501ba1a65691238258ed0fe4047",
       },
     ],
   },

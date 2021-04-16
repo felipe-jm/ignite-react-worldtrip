@@ -1,12 +1,45 @@
-import api from "services/api";
+import Head from "next/head";
 
-const Continent = () => <h1>hello world</h1>;
+import { GetStaticPaths, GetStaticProps } from "next";
 
-export const getStaticProps = async () => {
-  const continent = await api.get("/continent/");
+import { continents } from "services/mirage";
+
+import { ContinentTemplate, ContinentType } from "templates/Continent";
+
+type ContinentProps = {
+  continent: ContinentType;
+};
+
+const Continent = ({ continent }: ContinentProps) => (
+  <>
+    <Head>
+      <title>Worldtrip - {continent.title}</title>
+    </Head>
+
+    <ContinentTemplate continent={continent} />
+  </>
+);
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const paths = continents.map((continent) => ({
+    params: { slug: continent.slug },
+  }));
 
   return {
-    props: {},
+    paths,
+    fallback: true,
+  };
+};
+
+export const getStaticProps: GetStaticProps = async ({ params }) => {
+  const { slug } = params;
+
+  const continent = continents.find((cont) => cont.slug === slug);
+
+  return {
+    props: {
+      continent,
+    },
   };
 };
 

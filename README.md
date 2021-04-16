@@ -8,6 +8,8 @@
   A travel agency landing page :airplane:
 </h4>
 
+![App image](./app.png)
+
 ## :information_source: How To Use
 
 ```bash
